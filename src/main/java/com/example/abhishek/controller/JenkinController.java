@@ -12,6 +12,8 @@ public class JenkinController {
 
 	 @GetMapping("/")
 	    public String home() {
+			 logger.info("Home page request received- rahul ki gaand fad di ");
+        logger.info("Application triggered successfully from Jenkins build by abhishek");
 	        return "index";
 	    }
 	  
